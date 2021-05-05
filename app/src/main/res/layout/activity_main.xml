@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6E338"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="438dp"
+        android:layout_height="365dp"
+        android:paddingTop="120dp"
+        android:paddingBottom="50dp"
+        android:src="@drawable/notes"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/mobile"
+        android:text="Mobile"
+        android:textSize="20dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/pass"
+        android:text="Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/login"
+       android:text="Login"
+       android:layout_marginStart="160dp"
+       android:layout_marginTop="30dp"
+       android:textStyle="bold"
+     android:gravity="center_horizontal"
+       />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/register"
+        android:text="Click here to SignUp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
